@@ -128,3 +128,188 @@ html, body {
   padding: 8px;
   border-radius: 50%;
 }
+/* Video Section */
+main {
+  margin: 8% 8%;
+}
+
+.main-video {
+  width: 60%;
+  margin-right: 2%;
+  float: left;
+}
+
+aside{
+  width: 37%;
+}
+
+.main-video, aside {
+  display: inline-block;
+}
+
+iframe {
+  width:100%;
+}
+
+.clear-float {
+  clear: both;
+}
+
+hr {
+  border-width: thin;
+  border-color: #8080801c;
+}
+
+.right-comments {
+  float: right;
+}
+
+.comments{
+  font-size: 13px;
+  color: grey;
+}
+
+p i {
+  font-size: 17px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.likes-dislikes {
+  border-bottom: 2px solid grey;
+  padding-bottom: 9px;
+}
+
+.desc-title {
+  width: 90%;
+  display: inline-block;
+}
+
+.desc-title img {
+  width: 7%;
+}
+
+.desc-title .by-line {
+  display: inline-block;
+  float: left;
+}
+
+.date-published {
+  color: grey;
+  margin-top: -14px;
+  font-size: 13px;
+}
+
+.desc-title .subscribe-button{
+  display: inline-block;
+  float: right;
+}
+
+.desc-title button {
+  width: 151px;
+  background: #F00;
+  padding: 7%;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+.desc-title button span{
+  font-weight: 500;
+  opacity: .8;
+  margin-left: 5px;
+}
+
+.author-avatar {
+  width: 9%;
+  display: inline-block;
+  margin-right: 1%;
+  float: left;
+}
+
+.author-avatar img {
+  width: 100%;
+
+}
+
+.video-description {
+  margin-top: 20px;
+}
+
+.show-more{
+  color: grey;
+  font-size: 12px;
+}
+
+.comments-avatar {
+  width: 8%;
+  display: inline-block;
+  margin-right: 1%;
+  float: left;
+}
+.comments-avatar img {
+  width: 100%;
+}
+
+.comment-field{
+  margin-top: 1%;
+  margin-left: 2%;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #8080807d;
+}
+
+/* End of Video Section */
+
+/* Start of right sidebar iframe section*/
+
+.play{
+  float: right;
+  margin: auto 0;
+  font-size: 13px;
+  font-weight:400;
+
+}
+.play i{
+  color:blue;
+  font-size: 32px;
+}
+.sidebar-video{
+  width: 40%;
+  float: left;
+  height: auto;
+}
+.sidebarvideo-title{
+  width: 60%;
+  float: right; 
+  margin: 0;
+}
+.video{
+  width: 100%;
+  height: 100px;
+  margin-top: 3px;
+  margin-bottom:3px;
+  display: inline-block; 
+
+}
+.sidebarvideo-title h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: -2px;
+  margin-left: 19px;
+  margin-bottom: 8px;
+}
+.recom{
+  margin-top: -5px;
+}
+.title-cs{
+  margin-top: -5px;
+  margin-left: 5px;
+}
+.sidebarvideo-title p {
+  font-size: 14px;
+  color: grey;
+  margin-left: 21px;
+  margin-top: -7px;
+  margin-bottom: 8px;
+}
