@@ -127,7 +127,7 @@ main {
   float: left;
 }
 
-aside{
+aside {
   width: 37%;
 }
 
@@ -152,7 +152,7 @@ hr {
   float: right;
 }
 
-.comments{
+.comments {
   font-size: 13px;
   color: grey;
 }
@@ -202,7 +202,7 @@ p i {
   font-weight: 700;
 }
 
-.desc-title button span{
+.desc-title button span {
   font-weight: 500;
   opacity: .8;
   margin-left: 5px;
@@ -217,14 +217,13 @@ p i {
 
 .author-avatar img {
   width: 100%;
-
 }
 
 .video-description {
   margin-top: 20px;
 }
 
-.show-more{
+.show-more {
   color: grey;
   font-size: 12px;
 }
@@ -235,11 +234,12 @@ p i {
   margin-right: 1%;
   float: left;
 }
+
 .comments-avatar img {
   width: 100%;
 }
 
-.comment-field{
+.comment-field {
   margin-top: 1%;
   margin-left: 2%;
   width: 100%;
@@ -251,35 +251,38 @@ p i {
 
 /* Start of right sidebar iframe section*/
 
-.play{
+.play {
   float: right;
   margin: auto 0;
   font-size: 13px;
-  font-weight:400;
-
+  font-weight: 400;
 }
-.play i{
-  color:blue;
+
+.play i {
+  color: blue;
   font-size: 32px;
 }
-.sidebar-video{
+
+.sidebar-video {
   width: 40%;
   float: left;
   height: auto;
 }
-.sidebarvideo-title{
+
+.sidebarvideo-title {
   width: 60%;
   float: right; 
   margin: 0;
 }
-.video{
+
+.video {
   width: 100%;
   height: 100px;
   margin-top: 10px;
-  margin-bottom:3px;
-  display: inline-block; 
-
+  margin-bottom: 3px;
+  display: inline-block;
 }
+
 .sidebarvideo-title h3 {
   font-size: 16px;
   font-weight: 400;
@@ -287,13 +290,16 @@ p i {
   margin-left: 19px;
   margin-bottom: 8px;
 }
-.recom{
+
+.recom {
   margin-top: -5px;
 }
-.title-cs{
+
+.title-cs {
   margin-top: -5px;
   margin-left: 5px;
 }
+
 .sidebarvideo-title p {
   font-size: 14px;
   color: grey;
