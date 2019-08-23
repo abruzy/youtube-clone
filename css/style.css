@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -6,7 +7,7 @@ html, body {
 
 * {
   box-sizing: border-box;
-  transition: all ease-in-out .3s;
+  transition: all ease-in-out 0.3s;
 }
 
 /* Navigation Section */
@@ -56,8 +57,24 @@ nav .brand-logo {
   font-weight: bold;
 }
 
+.search-button img {
+  width: 25px;
+}
+
+.desc-title img {
+  width: 7%;
+}
+
+.author-avatar img {
+  width: 100%;
+}
+
+.comments-avatar img {
+  width: 100%;
+}
+
 nav .brand-logo img {
-  margin-right: .25rem;
+  margin-right: 0.25rem;
   width: 25px;
 }
 
@@ -84,7 +101,7 @@ nav .search-box {
   font-weight: 500;
   border: 1px solid #cfcfcf;
   border-right: none;
-  padding: 0 .25rem;
+  padding: 0 0.25rem;
   height: 32px;
   display: flex;
   align-items: center;
@@ -109,14 +126,8 @@ nav .search-box {
   border-bottom-right-radius: 2px;
 }
 
-.search-button img {
-  width: 25px;
-}
-
-/* End of Navigation Section */
-
-
 /* Video Section */
+
 main {
   margin: 8% 8%;
 }
@@ -136,7 +147,7 @@ aside {
 }
 
 iframe {
-  width:100%;
+  width: 100%;
 }
 
 .clear-float {
@@ -173,10 +184,6 @@ p i {
   display: inline-block;
 }
 
-.desc-title img {
-  width: 7%;
-}
-
 .desc-title .by-line {
   display: inline-block;
   float: left;
@@ -188,14 +195,14 @@ p i {
   font-size: 13px;
 }
 
-.desc-title .subscribe-button{
+.desc-title .subscribe-button {
   display: inline-block;
   float: right;
 }
 
 .desc-title button {
   width: 151px;
-  background: #F00;
+  background: #f00;
   padding: 7%;
   border: none;
   color: #fff;
@@ -204,7 +211,7 @@ p i {
 
 .desc-title button span {
   font-weight: 500;
-  opacity: .8;
+  opacity: 0.8;
   margin-left: 5px;
 }
 
@@ -213,10 +220,6 @@ p i {
   display: inline-block;
   margin-right: 1%;
   float: left;
-}
-
-.author-avatar img {
-  width: 100%;
 }
 
 .video-description {
@@ -235,10 +238,6 @@ p i {
   float: left;
 }
 
-.comments-avatar img {
-  width: 100%;
-}
-
 .comment-field {
   margin-top: 1%;
   margin-left: 2%;
@@ -246,8 +245,6 @@ p i {
   border: none;
   border-bottom: 1px solid #8080807d;
 }
-
-/* End of Video Section */
 
 /* Start of right sidebar iframe section*/
 
@@ -307,3 +304,4 @@ p i {
   margin-top: -7px;
   margin-bottom: 8px;
 }
+
