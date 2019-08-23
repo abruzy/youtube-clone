@@ -10,27 +10,40 @@
     <title>YouTube Clone</title>
 </head>
 <body>
-    <header>
-		<nav class="nav-wrapper">
-            <div class="header-left">
-                <a href="#" class="handle-bar"><i class="fas fa-bars"></i></a>
-                <a href="#" class="brand"><img src="assests/images/youtube-logo.png" alt="logo"></a>
+    <nav class="nav-wrapper">
+        <div class="leftBar">
+            <img class="menu" src="assests/images/menu.svg" alt="menu">
+            <a href="index.html" class="brand-logo">
+                <img src="assests/images/youtube.svg" alt="YouTube">
+                YouTube
+            </a>
+        </div>
+        <form class="search" action="" method="get">
+            <div class="search-box">
+                <input type="text" placeholder="Search">
             </div>
-            <div class="search-bar">
-                <form >
-                    <input type="text" class="search-box" placeholder="Search">
-                    <button class="btn"><i class="fas fa-search"></i></button>
-                </form>
-            </div>
-            <div class="header-right">
-                <a href="#"><i class="fas fa-video"></i></a>
-				<a href="#"><i class="fas fa-th"></i></a>
-				<a href="#"><i class="fas fa-comment"></i></a>
-				<a href="#"><i class="fas fa-bell"></i></a>
-				<a href="#" class="user"><img class="profile" src="assests/images/profile.jpg" alt="profile"></a>
-            </div>
-        </nav>
-    </header>
+            <button class="search-button">
+                <img src="assests/images/search .svg" alt="search">
+            </button>
+        </form>
+        <div class="rightBar">
+            <a href="#">
+                <img src="assests/images/videocam-filled-tool.svg" alt="">
+            </a>
+            <a href="#">
+                <img src="assests/images/menu_square.svg" alt="">
+            </a>
+            <a href="#">
+                <img src="assests/images/cloud-storage-uploading-option.svg" alt="">
+            </a>
+            <a href="#">
+                <img src="assests/images/notification.svg" alt="">
+            </a>
+            <a href="#" class="user">
+                <img src="assests/images/user.png" alt="">
+            </a>
+        </div>
+    </nav>
     <main>
 		<section class="main-video">
 			<iframe width="560" height="450" src="https://www.youtube.com/embed/CvJG4sQhzsw" allow="autoplay; encrypted-media" allowfullscreen></iframe>
