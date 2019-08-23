@@ -142,7 +142,8 @@ aside {
   width: 37%;
 }
 
-.main-video, aside {
+.main-video,
+aside {
   display: inline-block;
 }
 
@@ -245,8 +246,6 @@ p i {
   border: none;
   border-bottom: 1px solid #8080807d;
 }
-
-/* Start of right sidebar iframe section*/
 
 .play {
   float: right;
