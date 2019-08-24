@@ -1,8 +1,10 @@
-### YouTube Clone
-
+# YouTube Clone
 This is an attempt to clone a Youtube page as part of completing the curriculum at Microverse.org
 
-### Authors:
+## Built With
+- HTML
+- CSS
 
-Abubakar Diallo
-Saba Younis
+## Authors
+- [Abubakar Diallo](https://github.com/abruzy)
+- [Saba Younis](https://github.com/sabayounis)
