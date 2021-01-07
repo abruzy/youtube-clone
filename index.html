@@ -1,240 +1,393 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/201035c38b.js"></script>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>YouTube Clone</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<script src="https://kit.fontawesome.com/201035c38b.js"></script>
-	<link rel="shortcut icon" href="assests/imgages/icon.png" type="image/x-icon">
-	<link rel="stylesheet" href="css/style.css">
-	<title>YouTube Clone</title>
-</head>
+  <body>
+    <div class="header">
+      <div class="header-left">
+        <a href="#">
+          <svg>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+          </svg>
+        </a>
+        <a id="logo" href="#">
+          <img src="images/youtube-logo.png" alt="" />
+        </a>
+      </div>
+      <div class="search wide">
+        <form class="example" action="#">
+          <input type="text" placeholder="Search" name="search" />
+          <button type="submit">
+            <svg>
+              <path
+                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+              ></path>
+            </svg>
+          </button>
+        </form>
+      </div>
+      <div class="header-right">
+        <a class="small" href="#">
+          <svg>
+            <path
+              d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+            ></path>
+          </svg>
+        </a>
+        <a href="#">
+          <svg>
+            <path
+              d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4zM14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2z"
+            ></path>
+          </svg> </a
+        ><a class="wide" href="#">
+          <svg>
+            <path
+              d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"
+            ></path>
+          </svg>
+        </a>
+        <a class="wide" href="#">
+          <svg>
+            <path
+              d="M12.04 4C17 4 21 7.7 21 12.3c0 4.57-4 8.28-8.96 8.28-1.76 0-3.4-.47-4.8-1.28-.15-.1-.35-.1-.52-.04-1.58.68-2.8.88-3.45.93-.2 0-.34-.26-.22-.4.6-.9 1.08-1.8 1.43-2.5.1-.2.1-.46-.04-.65C3.58 15.4 3.1 13.9 3.1 12.3c0-4.6 4-8.3 8.94-8.3zm1.6 9.56v1.58c0 .17.22.25.34.13l3.43-3.34c.1-.07.1-.2 0-.27L14 8.32c-.12-.12-.33-.04-.33.13V10c0 .1-.07.18-.17.2-3.38.52-5.04 2.73-5.74 5.1-.06.2.2.34.32.2 1.3-1.42 3.05-2.1 5.4-2.13.1 0 .2.1.2.2z"
+            ></path>
+          </svg>
+        </a>
+        <a href="#">
+          <svg>
+            <path
+              d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5
+									1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"
+            ></path>
+          </svg>
+        </a>
+        <a id="user" title="Code on GitHub" href="https://github.com/abruzy">
+          <img src="images/abubakar.jpg" alt="" />
+        </a>
+      </div>
+    </div>
 
-<body>
-	<nav class="nav-wrapper">
-		<div class="leftBar">
-			<img class="menu" src="assests/images/menu.svg" alt="menu">
-			<a href="index.html" class="brand-logo">
-				<img src="assests/images/youtube.svg" alt="YouTube">
-				YouTube
-			</a>
-		</div>
-		<form class="search" action="" method="get">
-			<div class="search-box">
-				<input type="text" placeholder="Search">
-			</div>
-			<button class="search-button">
-				<img src="assests/images/search .svg" alt="search">
-			</button>
-		</form>
-		<div class="rightBar">
-			<a href="#">
-				<img src="assests/images/videocam-filled-tool.svg" alt="">
-			</a>
-			<a href="#">
-				<img src="assests/images/menu_square.svg" alt="">
-			</a>
-			<a href="#">
-				<img src="assests/images/cloud-storage-uploading-option.svg" alt="">
-			</a>
-			<a href="#">
-				<img src="assests/images/notification.svg" alt="">
-			</a>
-			<a href="#" class="user">
-				<img src="assests/images/user.png" alt="">
-			</a>
-		</div>
-	</nav>
-	<main>
-		<section class="main-video">
-			<iframe width="560" height="450" src="https://www.youtube.com/embed/CvJG4sQhzsw" allow="autoplay; encrypted-media"
-				allowfullscreen></iframe>
-			<p>The fastest way to become a software developer</p>
-			<p class="comments">44,000 views
-				<span class="right-comments">
-					<span class="likes-dislikes">
-						<i class="fas fa-thumbs-up"> </i> 400
-						<i class="fas fa-thumbs-down"> </i>9
-					</span>
-					<i class="fas fa-share"> </i>SHARE
-					<i class="fas fa-plus-square"> </i>
-					<i class="fas fa-ellipsis-h"> </i>
-				</span>
-			</p>
-			<hr>
-			<div class="video-description">
-				<div class="author-avatar">
-					<img src="assests/images/user.png" alt="profile-picture">
-				</div>
-				<div class="desc-title">
-					<div class="by-line">
-						<p>TheHappieCat</p>
-						<p class="date-published">Published on 2 Mar 2016</p>
-					</div>
-					<div class="subscribe-button">
-						<button>SUBSCRIBE
-							<span> 412K </span>
-						</button>
-					</div>
-					<div class="clear-float">
+    <div class="container">
+      <div class="videoplayer">
+        <div class="video">
+          <div class="video-container">
+            <iframe
+              src="https://www.youtube.com/embed/07xnm1nUNVo"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video-title border-bottom">
+            <h1>Coding and Listening to Quran [ so peaceful... ❤️ ]</h1>
+            <div>
+              <div class="views">
+                <span>17,819 views • Premiered on 6 Dec 2020</span>
+              </div>
 
-					</div>
-					<p>
-						This is also a good read if my video isn't your cup of tea: https://guides.github.com/activities/... The GUI
-						application:
-						https://desktop.github.com/ Community Challenge Information: https://www.reddit.com/r/TheHappieMak...
-					</p>
-					<P class="show-more">SHOW MORE</P>
-				</div>
-				<hr>
-			</div>
-			<p>11 comments
-				<span>
-					<i class="fas fa-sort-amount-up"></i> SORT BY
-				</span>
-			</p>
-			<div class="videoDescription">
-				<div class="comments-avatar">
-					<img src="assests/images/user.png" alt="profile-picture">
-				</div>
-				<div class="desc-title">
-					<input type="text" placeholder="Add a public comment..." class="comment-field">
-				</div>
-			</div>
-		</section>
-		<div class="right-sidebar">
-			<aside>
-				<p><span>Up next</span>
-					<span class="play">AUTOPLAY <i class="fas fa-toggle-on"></i></span>
-				</p>
-				<div class="video">
-					<div class="sidebar-video">
-						<iframe width="168" height="94" src="https://www.youtube.com/embed/GbbM9L5e5cU"
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-					<div class="sidebarvideo-title">
-						<h3>How to Rank Your Old Content (And Start Ranking for Hundreds Of New Keywords)</h3>
-						<p>Neil Patel</p>
-						<p> Recommended for you</p>
-						<p>323k views</p>
-					</div>
-				</div>
+              <div class="like-share">
+                <div class="like">
+                  <a href="#">
+                    <svg>
+                      <path
+                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                      ></path>
+                    </svg>
+                    <span>2.2K</span>
+                  </a>
 
-				<hr>
+                  <a href="#">
+                    <svg>
+                      <path
+                        d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                      ></path>
+                    </svg>
+                    <span>82</span>
+                  </a>
+                </div>
+                <div id="share">
+                  <a href="#">
+                    <svg>
+                      <path
+                        d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"
+                      ></path>
+                    </svg>
+                    <span>SHARE</span>
+                  </a>
+                  <a href="#">
+                    <svg>
+                      <path
+                        d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"
+                      ></path>
+                    </svg>
+                    <span>SAVE</span>
+                  </a>
+                  <a id="reprot-circles" href="#">
+                    <svg>
+                      <circle
+                        cx="5"
+                        cy="12"
+                        r="2"
+                        class="style-scope yt-icon"
+                      ></circle>
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="2"
+                        class="style-scope yt-icon"
+                      ></circle>
+                      <circle
+                        cx="19"
+                        cy="12"
+                        r="2"
+                        class="style-scope yt-icon"
+                      ></circle>
+                    </svg>
+                  </a>
+                  <a id="report" href="#">
+                    <svg>
+                      <path d="M14.4 6L14 4H5v17h2v-7h5.6l.4 2h7V6z"></path>
+                    </svg>
+                    <span>REPORT</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info border-bottom">
+          <div class="owner">
+            <div class="owner-icon">
+              <a href="#">
+                <img src="images/owner-icon.jpg" alt="" />
+              </a>
+            </div>
+            <div class="owner-name">
+              <h1>Amigoscode</h1>
+              <p class="grey">126k subscribers</p>
+            </div>
+            <div class="subscribe">
+              <a href="#">SUBSCRIBE</a>
+            </div>
+          </div>
 
-				<div class="video">
-					<div class="sidebar-video">
-						<iframe width="168" height="94" src="https://www.youtube.com/embed/GbbM9L5e5cU"
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-					<div class="sidebarvideo-title">
-						<h3>How to Rank Your Old Content (And Start Ranking for Hundreds Of New Keywords)</h3>
-						<p>Neil Patel</p>
-						<p> Recommended for you</p>
-						<p>1M views</p>
-					</div>
-				</div>
-				<div class="video">
-					<div class="sidebar-video">
-						<iframe width="168" height="94" src="https://www.youtube.com/embed/GbbM9L5e5cU"
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-					<div class="sidebarvideo-title">
-						<h3>How to Rank Your Old Content (And Start Ranking for Hundreds Of New Keywords)</h3>
-						<p>Neil Patel</p>
-						<p> Recommended for you</p>
-						<p>400k views</p>
-					</div>
-				</div>
-				<div class="video">
-					<div class="sidebar-video">
-						<iframe width="168" height="94" src="https://www.youtube.com/embed/GbbM9L5e5cU"
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-					<div class="sidebarvideo-title">
-						<h3>How to Rank Your Old Content (And Start Ranking for Hundreds Of New Keywords)</h3>
-						<p>Neil Patel</p>
-						<p> Recommended for you</p>
-						<p>234k views</p>
-					</div>
-				</div>
-				<div class="video">
-					<div class="sidebar-video">
-						<iframe width="168" height="94" src="https://www.youtube.com/embed/GbbM9L5e5cU"
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-					<div class="sidebarvideo-title">
-						<h3 class="title-cs">How to Rank Your Old Content (And Start Ranking for Hundreds Of New Keywords)</h3>
-						<p class="name">Neil Patel</p>
-						<p class="recom"> Recommended for you</p>
-						<p>500k views</p>
-					</div>
-				</div>
-				<div class="video">
-					<div class="sidebar-video">
-						<iframe width="168" height="94" src="https://www.youtube.com/embed/GbbM9L5e5cU"
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-					<div class="sidebarvideo-title">
-						<h3 class="title-cs">How to Rank Your Old Content (And Start Ranking for Hundreds Of New Keywords)</h3>
-						<p class="name">Neil Patel</p>
-						<p class="recom"> Recommended for you</p>
-						<p>2M views</p>
-					</div>
-				</div>
-				<div class="video">
-					<div class="sidebar-video">
-						<iframe width="168" height="94" src="https://www.youtube.com/embed/GbbM9L5e5cU"
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-					<div class="sidebarvideo-title">
-						<h3 class="title-cs">How to Rank Your Old Content (And Start Ranking for Hundreds Of New Keywords)</h3>
-						<p class="name">Neil Patel</p>
-						<p class="recom"> Recommended for you</p>
-						<p>300k views</p>
-					</div>
-				</div>
-				<div class="video">
-					<div class="sidebar-video">
-						<iframe width="168" height="94" src="https://www.youtube.com/embed/GbbM9L5e5cU"
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-					<div class="sidebarvideo-title">
-						<h3 class="title-cs">How to Rank Your Old Content (And Start Ranking for Hundreds Of New Keywords)</h3>
-						<p class="name">Neil Patel</p>
-						<p class="recom"> Recommended for you</p>
-						<p>400k views</p>
-					</div>
-				</div>
-				<div class="video">
-					<div class="sidebar-video">
-						<iframe width="168" height="94" src="https://www.youtube.com/embed/GbbM9L5e5cU"
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-					<div class="sidebarvideo-title">
-						<h3 class="title-cs">How to Rank Your Old Content (And Start Ranking for Hundreds Of New Keywords)</h3>
-						<p class="name">Neil Patel</p>
-						<p class="recom"> Recommended for you</p>
-						<p>500k views</p>
-					</div>
-				</div>
-				<div class="video">
-					<div class="sidebar-video">
-						<iframe width="168" height="94" src="https://www.youtube.com/embed/GbbM9L5e5cU"
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-					<div class="sidebarvideo-title">
-						<h3 class="title-cs">How to Rank Your Old Content (And Start Ranking for Hundreds Of New Keywords)</h3>
-						<p class="name">Neil Patel</p>
-						<p class="recom"> Recommended for you</p>
-						<p>800k views</p>
-					</div>
-				</div>
+          <div class="description">
+            <p>This is what a listen to while coding. Enjoy.</p>
+            <br />
+            <p>
+              Surat Ar Rahman Original video -
+              <a href="https://www.youtube.com/watch?v=rOdi8cxR9xY"
+                >https://www.youtube.com/watch?v=rOdi8cxR9xY</a
+              >
+            </p>
+            <br />
+            <a href="#">SHOW MORE</a>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="next">
+          <h3>Up next</h3>
+          <div>
+            <h4 class="grey">AUTOPLAY</h4>
+            <label class="switch">
+              <input type="checkbox" checked />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+        <div class="thumbnail-container">
+          <div class="thumbnail">
+            <a href="#">
+              <img
+                src="https://i.ytimg.com/an_webp/kgxgYQ-tNVA/mqdefault_6s.webp?du=3000&sqp=CKC32_8F&rs=AOn4CLDBBX8eijwcZKfMYpdX8IIrow2ERA"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="thumbnail-info">
+            <span>I Quit My Job Because I Was Not Learning Anymore</span>
+            <p class="grey">Amigoscode</p>
+            <p class="grey">44k views • 8 months ago</p>
+          </div>
+        </div>
+        <div class="break border-bottom"></div>
+        <div class="thumbnail-container">
+          <div class="thumbnail">
+            <a href="#">
+              <img
+                src="https://i.ytimg.com/an_webp/oHKiNZMIZ0o/mqdefault_6s.webp?du=3000&sqp=CMSi2_8F&rs=AOn4CLCknDtPtWfXeYvzhdc16xmkIGNonQ"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="thumbnail-info">
+            <span>MacBook Air M1 For Programming [Apple M1 Review]</span>
+            <p class="grey">Amigoscode</p>
+            <p class="grey">34k views • 2 weeks ago</p>
+          </div>
+        </div>
+        <div class="thumbnail-container">
+          <div class="thumbnail">
+            <a href="#">
+              <img
+                src="https://i.ytimg.com/an_webp/cMy9LxUQa8M/mqdefault_6s.webp?du=3000&sqp=COy12_8F&rs=AOn4CLAM9iVf5fscS5lRNZ1LXi7AJvwy3g"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="thumbnail-info">
+            <span>Full Day In The Life of a Software Engineer</span>
+            <p class="grey">Amigoscode</p>
+            <p class="grey">96k views • 10 months ago</p>
+          </div>
+        </div>
+        <div class="thumbnail-container">
+          <div class="thumbnail">
+            <a href="#">
+              <img
+                src="https://i.ytimg.com/an_webp/FSV485hck7g/mqdefault_6s.webp?du=3000&sqp=CLCY2_8F&rs=AOn4CLCjkFPq-OWmgGEOPlFl5E74HTQP7g"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="thumbnail-info">
+            <span>Don't Focus on Coding, Learn Concepts Instead</span>
+            <p class="grey">Amigoscode</p>
+            <p class="grey">140k views • 10 months ago</p>
+          </div>
+        </div>
+        <div class="thumbnail-container">
+          <div class="thumbnail">
+            <a href="#">
+              <img
+                src="https://i.ytimg.com/an_webp/WAtcwmRYXDc/mqdefault_6s.webp?du=3000&sqp=CJCb2_8F&rs=AOn4CLBuHAMEjIXLPWEYZz00YKhUXhfN0A"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="thumbnail-info">
+            <span
+              >How I Became a Software Engineer Without Computer Science Degree
+              | Amazing Story</span
+            >
+            <p class="grey">Amigoscode</p>
+            <p class="grey">298k views • 9 months ago</p>
+          </div>
+        </div>
+        <div class="thumbnail-container">
+          <div class="thumbnail">
+            <a href="#">
+              <img
+                src="https://i.ytimg.com/an_webp/Q93JsQ8vcwY/mqdefault_6s.webp?du=3000&sqp=CKSI2_8F&rs=AOn4CLABtp9tWlYwNFIGDDLAWUMtSo6UBg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="thumbnail-info">
+            <span>Java Streams Tutorial | 2020</span>
+            <p class="grey">Amigoscode</p>
+            <p class="grey">51k views • 1 year ago</p>
+          </div>
+        </div>
+        <div class="thumbnail-container">
+          <div class="thumbnail">
+            <a href="#">
+              <img
+                src="https://i.ytimg.com/an_webp/hc50ALh_x5g/mqdefault_6s.webp?du=3000&sqp=COic2_8F&rs=AOn4CLDveHPA5odeIdOzyH1JAne-6mGuxA"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="thumbnail-info">
+            <span>PyCharm Tutorial | Full Course [2021]</span>
+            <p class="grey">Amigoscode</p>
+            <p class="grey">31k views • 1 month ago</p>
+          </div>
+        </div>
+        <div class="thumbnail-container">
+          <div class="thumbnail">
+            <a href="#">
+              <img
+                src="https://i.ytimg.com/an_webp/LzYNWme1W6Q/mqdefault_6s.webp?du=3000&sqp=CKim2_8F&rs=AOn4CLDDEe9T7iQd60L5Is30RvG0NcZbxQ"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="thumbnail-info">
+            <span>Python Tutorial | Python for Absolute Beginners [2021]</span>
+            <p class="grey">Amigoscode</p>
+            <p class="grey">70k views • 2 months ago</p>
+          </div>
+        </div>
+        <div class="thumbnail-container">
+          <div class="thumbnail">
+            <a href="#">
+              <img
+                src="https://i.ytimg.com/an_webp/h4exLX8Wz4E/mqdefault_6s.webp?du=3000&sqp=CMWG2_8F&rs=AOn4CLBWgEiCajTxE2KOs5TOQHSTWcPuQA"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="thumbnail-info">
+            <span
+              >coding for 1 hour timelapse | day in the life of a software
+              engineer</span
+            >
+            <p class="grey">Amigoscode</p>
+            <p class="grey">19k views • 1 month ago</p>
+          </div>
+        </div>
+        <div class="thumbnail-container">
+          <div class="thumbnail">
+            <a href="#">
+              <img
+                src="https://i.ytimg.com/an_webp/bhBSlnQcq2k/mqdefault_6s.webp?du=3000&sqp=CKyu2_8F&rs=AOn4CLDzxFq1f_kpOp0ST4Dfx_k-SwcDlA"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="thumbnail-info">
+            <span>Docker and Kubernetes Tutorial | Full Course [2021]</span>
+            <p class="grey">Amigoscode</p>
+            <p class="grey">164k views • 3 months ago</p>
+          </div>
+        </div>
+      </div>
 
-			</aside>
-		</div>
-	</main>
-</body>
+      <div>
+        <div class="sort">
+          <h2>0 Comments</h2>
+          <a href="#">
+            <svg>
+              <path d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z"></path>
+            </svg>
+          </a>
+          <div>SORT BY</div>
+        </div>
 
+        <div class="comments">
+          <div>
+            <a href="#">
+              <img src="images/abubakar.jpg" alt="" />
+            </a>
+            <div class="add-comment">Add public comment</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
