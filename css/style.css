@@ -36,8 +36,6 @@ a {
   text-decoration: none;
 }
 
-/*  */
-
 /* Header */
 .header {
   display: grid;
@@ -100,6 +98,7 @@ a {
   background: rgb(247, 247, 247);
   border: 1px solid rgb(175, 175, 175);
   border-left: none;
+
   /* Prevent double borders */
   border-radius: 0 2px 2px 0;
   cursor: pointer;
@@ -159,8 +158,6 @@ a {
   display: none;
 }
 
-/*  */
-
 /* End of Header */
 
 .container {
@@ -178,6 +175,7 @@ a {
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
+
   /*16:9*/
   padding-top: 30px;
   height: 0;
@@ -430,8 +428,6 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-/*  */
-
 .break {
   padding: 2px;
   margin-bottom: 16px;
@@ -468,7 +464,6 @@ input:checked + .slider:before {
 }
 
 /* Comments */
-
 .sort {
   display: flex;
   height: 24px;
@@ -524,7 +519,6 @@ input:checked + .slider:before {
 }
 
 /* Responsive media query */
-
 @media screen and (min-width: 1000px) {
   .container {
     grid-template-areas:
